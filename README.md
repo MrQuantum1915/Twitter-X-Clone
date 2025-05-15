@@ -2,6 +2,11 @@
 
 This repository contains the frontend implementation of a Twitter-like web application. The project is built using HTML and Tailwind CSS, with a focus on clean, modern UI and best practices for maintainability and scalability.
 
+## Tech Stack Used
+<img src="https://github.com/user-attachments/assets/237457a5-4d15-4b78-a411-907072f21c5b" alt="Image Description" width="100" height="100">
+
+<img src="https://github.com/user-attachments/assets/12780a4b-0588-4a87-9f49-5e70aa00c1c4" alt="Image Description" width="200" height="100">
+
 ## Features
 - Responsive layout with sticky navigation bar
 - Sidebar, feed, and post area styled to mimic Twitter's look and feel
