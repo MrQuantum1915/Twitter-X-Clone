@@ -10,7 +10,7 @@ This repository contains the frontend implementation of a Twitter-like web appli
 ## Features
 - Responsive layout with sticky navigation bar
 - Sidebar, feed, and post area styled to mimic Twitter's look and feel
-- Custom color theme (Twitter blue) via Tailwind configuration
+- Custom color theme (Twitter blue) via Tailwind configuration and Color effects of like, reply, repost buttons, etc.
 - SVG icons and images managed in the `/assets` folder
 - Reusable post container styles using Tailwind's `@apply` and custom classes
 - Flexbox-based layouts for precise alignment
@@ -26,7 +26,7 @@ src/
   test.html       # Flexbox alignment demo
 package.json      # Project dependencies and scripts
 postcss.config.js # PostCSS configuration
- tailwind.config.js # Tailwind custom theme and content paths
+tailwind.config.js # Tailwind custom theme and content paths
 ```
 
 ## Getting Started
@@ -42,7 +42,6 @@ postcss.config.js # PostCSS configuration
     ```bash
     npm run build
     ```
-   ```
 3. **Open `src/home.html` in your browser** to view the app.
 
 ## Notes
@@ -51,7 +50,11 @@ postcss.config.js # PostCSS configuration
 - Custom colors and reusable styles are defined in `tailwind.config.js` and `src/input.css`.
 
 ## Screenshot
-*Website screenshot will be added here soon.*
+
+  ![Screenshot from 2025-05-15 22-44-21](https://github.com/user-attachments/assets/954644de-3e5a-442c-a856-99560a67d7d4)
+  
+  ## Scrolled
+  ![Screenshot from 2025-05-15 22-50-02](https://github.com/user-attachments/assets/478c5b79-05ab-46df-b9da-42756d7ddad7)
 
 ---
 
