@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+.post {
+    @apply flex justify-between border-b-1 border-t-1 border-amber-50/20 w-full pt-2 pl-4 pr-4 cursor-pointer;
+}
+
+.post .profile-pic {
+    @apply rounded-full size-12;
+}
+
+
+.post .first-bar {
+    @apply flex items-center;
+}
+
+.post .content {
+    @apply pl-4 pr-4;
+}
+
+.post .content .content-image {
+    @apply rounded-xl mt-3 w-full max-w-md;
+}
+
+.post .engagement-bar {
+    @apply flex items-center justify-between hover:opacity-100 ml-3 cursor-pointer;
+}
+
+.post .engagement-bar .reply-bar {
+    @apply flex items-center opacity-50 hover:opacity-100 hover:text-[#1d9cf0] fill-amber-50/75 hover:fill-[#1d9cf0] cursor-pointer mr-3 ml-3;
+}
+
+.post .engagement-bar .reply-bar .reply-button {
+    @apply rounded-full hover:bg-[#1d9cf0]/10 cursor-pointer;
+}
+
+
+
+.post .engagement-bar .repost-bar {
+    @apply flex items-center opacity-50 hover:opacity-100 hover:text-[#00ba7c] fill-amber-50/75 hover:fill-[#00ba7c] cursor-pointer  mr-7 ml-7;
+}
+
+.post .engagement-bar .repost-bar .repost-button {
+    @apply rounded-full hover:bg-[#00ba7c]/10 cursor-pointer;
+}
+
+
+.post .engagement-bar .like-bar {
+    @apply flex items-center opacity-50 hover:opacity-100 hover:text-[#f9180c] fill-amber-50/75 hover:fill-[#f9180c] cursor-pointer  mr-7 ml-7;
+}
+
+.post .engagement-bar .like-bar .like-button {
+    @apply rounded-full hover:bg-[#f9180c]/10 cursor-pointer;
+}
+
+
+.post .engagement-bar .views-bar {
+    @apply flex items-center opacity-50 hover:opacity-100 hover:text-[#1d9cf0] fill-amber-50/75 hover:fill-[#1d9cf0] cursor-pointer  mr-7 ml-7;
+}
+
+.post .engagement-bar .views-bar .views-button {
+    @apply rounded-full hover:bg-[#1d9cf0]/10 cursor-pointer;
+}
+
+
+.other-bar {
+    @apply flex items-center justify-between;
+}
+.other-bar .bookmark-button {
+    @apply opacity-50 hover:opacity-100 hover:text-[#1d9cf0] fill-amber-50/75 hover:fill-[#1d9cf0] rounded-full hover:bg-[#1d9cf0]/10 cursor-pointer;
+}
+
+.other-bar .share-button {
+    @apply opacity-50 hover:opacity-100 hover:text-[#1d9cf0] fill-amber-50/75 hover:fill-[#1d9cf0] rounded-full hover:bg-[#1d9cf0]/10 cursor-pointer;
+}
+
+.engagement-svg {
+    @apply size-10 p-2;
+}
+
+.post .name {
+    @apply font-semibold pl-4;
+}
+
+.post .username {
+    @apply opacity-50 pl-2 text-[16px];
+}
+
+.post .timestamp {
+    @apply opacity-50 pl-2 text-[16px];
+}
+
+.tool-bar {
+    @apply flex items-center justify-between hover:opacity-100 cursor-pointer;
+}
+
+.tool-bar-item {
+    @apply flex items-center opacity-50 hover:opacity-100 hover:text-[#1d9cf0] fill-amber-50/75 hover:fill-[#1d9cf0] cursor-pointer;
+}
+
+.tool-bar-item .item-button {
+    @apply rounded-full hover:bg-[#1d9cf0]/10 cursor-pointer;
+}
+
+.tool-bar-item svg {
+    @apply size-10 p-2;
+}
