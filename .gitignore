@@ -1,2 +1,9 @@
 node_modules
-output.css
+dist
+build
+.cache
+.vscode
+.DS_Store
+Thumbs.db
+src/output.css
+.txt
